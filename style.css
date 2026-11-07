@@ -25,6 +25,14 @@ h3 { font-size: 15px; color: var(--ink); margin: 22px 0 8px; }
   font: inherit; font-weight: 700; font-size: 14px; color: var(--dim); cursor: pointer; }
 .tabs button[aria-selected="true"] { background: var(--accent-soft); color: var(--accent); }
 
+.model-box { margin-bottom: 14px; }
+.model-box select, .model-box input { width: 100%; font: inherit; font-size: 14px; padding: 10px 12px;
+  border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); }
+.model-box input { margin-top: 6px; }
+.model-box select:focus, .model-box input:focus { outline: 2px solid var(--accent-soft); border-color: var(--accent); }
+.model-box p { margin: 6px 0 0; overflow-wrap: anywhere; }
+.model-box p.bad { color: var(--bad); }
+
 .panel { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius);
   padding: 16px; }
 .label { font-size: 12px; font-weight: 700; color: var(--dim); margin-bottom: 6px; display: block; }
